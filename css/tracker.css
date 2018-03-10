@@ -1,0 +1,39 @@
+html, body {
+	background:#000;
+	color:#bec7d2;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:.88em;
+	font-weight:400;
+	height:100%;
+	line-height:15px;
+	margin:0;
+	padding:0;
+	text-shadow:1px 1px 0 rgba(0,0,0,0.3);
+}
+
+
+ul {
+  list-style-type: none;
+  font-weight:bold;
+  font-size:1.10em;
+}
+
+li {
+	height: 30px;
+	width: 70px;
+	padding: 3px;
+}
+
+
+ li.hover {
+	background:#001a36;
+	color:#fff;
+}
+
+li.onsquare {
+	background:#051;
+}
+
+ li.onsquare:hover, li.onsquare.hover {
+	background:#072;
+}
